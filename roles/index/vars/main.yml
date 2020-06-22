@@ -1,6 +1,5 @@
 ---
 # vars file for index
-   ansible_python_interpreter: /usr/bin/python3
    Trainer: Basil Varghese
    MainCourse: TestOps
    Queries: Have any questions?
@@ -9,13 +8,23 @@
    TrainingLogin: New Login for training
    LeftHeader: DevOps Home
    RightHeader:
-            - home
-            - FAQ
-            - page
-            - contact
-            - courses
-   Home_slider_subtitle1: DevOps Work Integrated Learning program
+           1: home
+           2: FAQ
+           3: page
+           4: contact
+           5: courses
+   
+   slider3: DevOps Workeve in walking you through the path, than just learning
    CloudCourse: Azure
-   Home_slider_subtitle2: We believe in walking you through the path, than just learning
+    #
+    #
+    #
+    #
+    #Page2
+    #
+   Page2:  We are a group of people working in different organisations, with 10+ years of Industrial experience. We provide online, offline and Corporate training on DevOps to groom eligible engineers who can deliver the IT projects as your Industry demands it.
+   Page21: Our Trainers are experts in DevOps and we believe experience goes a long way....
+   Page22: We dont have a marketing team. You call us and ask for Trainer Phone number. Talk to him directly.....
+   Page23: Your trainer is your primary point of contact. He take care of all your questions...
+   Page24: Our trainers have trained over 1000 IT professionals and we assist them in all the way we could....
 
-                                                                                                          i
