@@ -1,0 +1,5 @@
+---
+# handlers file for index
+  - name: starting apache service
+    service: name=apache2 state=started
+

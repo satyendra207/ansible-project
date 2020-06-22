@@ -1,0 +1,11 @@
+---
+# tasks file for index
+    - name: stopping apache service
+      service: name=apache2 state=stopped
+    - name: removing  index.html file in remote machine
+      file: path=/var/www/html/devopsdoor/index.html state=absent
+    - name: copy index.html to remote server
+      template: src=index.html.j2 dest=/var/www/html/devopsdoor/index.html
+      notify: starting apache service
+
+

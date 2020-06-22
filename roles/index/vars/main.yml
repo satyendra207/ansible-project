@@ -1,0 +1,21 @@
+---
+# vars file for index
+   ansible_python_interpreter: /usr/bin/python3
+   Trainer: Basil Varghese
+   MainCourse: TestOps
+   Queries: Have any questions?
+   Phone: +(91) 9440875259
+   Email: bsatyendra207@gmail.com
+   TrainingLogin: New Login for training
+   LeftHeader: DevOps Home
+   RightHeader:
+            - home
+            - FAQ
+            - page
+            - contact
+            - courses
+   Home_slider_subtitle1: DevOps Work Integrated Learning program
+   CloudCourse: Azure
+   Home_slider_subtitle2: We believe in walking you through the path, than just learning
+
+                                                                                                          i
